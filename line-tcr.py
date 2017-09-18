@@ -60,14 +60,13 @@ helpMessage =""" [R.A] BOT Menu V.2
 [_namabot join] Invite Bot
 [Bye _namabot]  Leave Bot
 """
-KAC=[cl,ki,kk,kc,ks]
+KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
-Dmid = ks.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid]
+Bots=[mid,Amid,Bmid,Cmid]
 admin=["u33d60593ad472ed11e7907fb1daee6ae"]
 wait = {
     'contact':True,
