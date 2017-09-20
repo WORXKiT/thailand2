@@ -2,7 +2,7 @@
 BOT Chivas Edited V.1 Login Token / Link
 
 Catatan : 
-- Bot Ini Menggunakan 3 Akun Bot + 1 Akun admin <br>
+- Bot Ini Menggunakan 4 Akun Bot + 1 Akun admin <br>
 - Gunakan https://github.com/alfathdirk/LIN3-TCR Untuk Pengguna Baru ( WAJIB )<br><br>
 
 Cara Install Via Android :
