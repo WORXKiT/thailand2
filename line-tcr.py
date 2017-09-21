@@ -22,16 +22,16 @@ import time,random,sys,json,codecs,threading,glob,re
 #kc.loginResult()
 
 cl = LINETCR.LINE()
-cl.login(token="EkSvo8FY659psmMfb7jc.GJpuOtCNkD3m+Pg7aUjgVa.PwjR3yj3wQ4yWq161yGKppWj7XJhHRRInTcLYCtD82k=")
+cl.login(token="authoken kamu")
 
 ki = LINETCR.LINE()
-ki.login(token="EkMqEoYwT0VZ3okMuaaa.N+cBHdxTdM7XIIK+DnVVYG.WXtenoVMUaTJVxNt+62Cj1t25d4QqtJq4SPOhYbCRis=")
+ki.login(token="authoken kamu")
 
 kk = LINETCR.LINE()
-kk.login(token="EkyOai7NwIoJMWPdEGaa.jo/NwX7R46f4IXtBW4OdwG.vwMkpsxoKZI6WPqe5olDo3RBgh/WThevKYk7gCs6yYs=")
+kk.login(token="autotoken kamu")
 
 kc = LINETCR.LINE()
-kc.login(token="EkMjBDELjlE1y73xrJT8.KK6UYkCM1dQZFHXZr8ynMa.L1UFdAgYePnJbaygH2DmkgZ3Iyu+6+s/FesIlHwtf30=")
+kc.login(token="authoken kamu")
 
 cl
 
