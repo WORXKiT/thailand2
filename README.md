@@ -3,7 +3,6 @@ BOT Chivas Edited V.1 Login Token / Link
 
 Catatan : 
 - Bot Ini Menggunakan 4 Akun Bot + 1 Akun admin <br>
-- Gunakan https://github.com/alfathdirk/LIN3-TCR Untuk Pengguna Baru ( WAJIB )<br><br>
 
 Cara Install Via Android :
 - Download Termux & Install<br>
@@ -13,7 +12,7 @@ Cara Install Via Android :
 - pip2 install thrift==0.9.3<br>
 - pkg install git<br>
 - pkg install nano<br>
-- git clone https://github.com/alfathdirk/LIN3-TCR<br>
+- git clone https://github.com/andyihsan/LIN3-TCR<br>
 - Selesai
 
 Cara Membuka/Mengedit File :
@@ -30,4 +29,4 @@ Cara Menjalankan Bot :
 - cd LIN3-TCR && python2 line-tcr.py<br>
 - Loginkan Dengan Akun Bot Kalian Lalu Masukkan MID Admin
 
-Butuh Bantuan? Silahkan Masuk Ke Group, add : andyihsan
+Butuh Bantuan? Silahkan Masuk Ke Group, add : andyihsan ( khusus yg udah tau bot aja )
