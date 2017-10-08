@@ -1,8 +1,8 @@
 # LIN3-TCR
-BOT Chivas Edited V.1 Login Token / Link
+BOT Chivas Edited V.2 Login Token / Link
 
 Catatan : 
-- Bot Ini Menggunakan 4 Akun Bot + 1 Akun admin <br>
+- Bot Ini Menggunakan 10 Akun Bot + 1 Akun admin <br>
 
 Cara Install Via Android :
 - Download Termux & Install<br>
