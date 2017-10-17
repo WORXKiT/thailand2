@@ -28,5 +28,3 @@ Cara Membuka/Mengedit File Via Internal :
 Cara Menjalankan Bot :
 - cd LIN3-TCR && python2 line-tcr.py<br>
 - Loginkan Dengan Akun Bot Kalian Lalu Masukkan MID Admin
-
-Butuh Bantuan? Silahkan Masuk Ke Group, add : andyihsan ( khusus yg udah tau bot aja )
