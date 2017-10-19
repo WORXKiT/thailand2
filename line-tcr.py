@@ -10,73 +10,72 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.loginResult()
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="ElwNEqEevvbPiwHuCVL6.TZBfSxLpwQmajTfI0hZL5G.TOMs2ntqK3BtgPmsgDp1g+UZO24ao9Oe9K57tsHUugQ=")
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="EldjmeKCcEeMN5M5aTUc.no4dMxrsd11rTBtXMaDXxa.v8r4XsC8Zj3nPFrAsuXV3Evk/dmy2DOSLhC6EIj7NB8=")
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token="ElQnJiGBh080D0m26Ho7.PxA11UvF6+oIj1J2xHVgHW.aZnrwsJ4fGX36m6psRUdC+yITXYjZrBlTGinrCQpHuo=")
 
 kc = LINETCR.LINE()
-kc.login(qr=True)
+kc.login(token="ElDNZ4emNgGv3W7NOpQd.3ZijQj/+HYJ/+9NTGXTdBq.J9bKSVBcNBurahyLyOUwGRD/TX/s46plKh9vcYFIF6A=")
 
 ks = LINETCR.LINE()
-ks.login(qr=True)
+ks.login(token="ElzX5EtV0JBJOr6nCZy2.HczpEpY3698wuSB+TzCDKG.+U7W+QXHOfxx3TP1f/7PlZhNvYz08EEi00RjN2FZiZ0=")
 
 ka = LINETCR.LINE()
-ka.login(qr=True)
+ka.login(token="ElK7VU11ig1O1fFuyLQ2.+hrnQ8/01MtcFBhHfkeqmG.siUB5wiFvY08ay3LMNzMLZrbvXh1HQAzBpFtG/Ud5TM=")
 
 kb = LINETCR.LINE()
-kb.login(qr=True)
+kb.login(token="ElhZaRXALLJR39jbFqAb.8udcfgLi7ehlJbE2o+xCkW.bkcVsy06LrUxFwvLc7YxGXMD6FE2fm2mr3C+tMqCmTU=")
 
 ko = LINETCR.LINE()
-ko.login(qr=True)
+ko.login(token="ElA4D8ar1BuscOmJtaYa.DP7HM0ARnuIu/2g0+3pMUG.35meL/KHaKnjOwwhXbHNVVuvdIuW31ScNL0boHQB1P8=")
 
 ke = LINETCR.LINE()
-ke.login(qr=True)
+ke.login(token="El0woIiyBcsjC1uTTAsa.M5S4YxDWvhoYOasbMPWroG.1VD49QNcVRpnezRLb4JyFQLSKdFRweiK6QsfZP5+JgU=")
 
 ku = LINETCR.LINE()
-ku.login(qr=True)
+ku.login(token="ElRDzd5kJZrhjSZeMQu4.9gH7ABV+xQLJo9i7SbFX5a.1UDJG2VBERnv/BcBbzWVIBBbtghJzNvzt7H3qUueNPc=")
 
-cl
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
+helpMessage =""" [Tamii] BOT Menu V.3  􀔃􀄆red check mark􏿿
 
 􀔃􀅕red arrow right􏿿 Command Public
-[Me]       Cek Akun Sendiri
-[My mid]   Cek Akun Mid
-[Bot?]     Cek Akun Bot
-[Id Group] Cek Id Group
-[Ginfo]    Group Info
-[Mid RA]   Cek All mid Bot
-[RA 1/2/3/4] Cek Mid Bot
-[Respon]   Cek Respon Bot
-[Speedbot] Cek Kecepatan Bot
-[Up]       Fungsi Spam Chat
-[Tagall]   Mention Semua User
-[Banlist]  Cek List Akun Banned
-[Gn namagroup] Ganti Nama Group
-[Cancel] Cancel User Masuk Group
-[Set View] Cek Privasi Group
-[Open Url]  Membuka Url Group
-[Close Url] Menutup Url Group
+😎[Me]       Cek Akun Sendiri
+😎[My mid]   Cek Akun Mid
+😎[Bot?]     Cek Akun Bot
+😎[Id Group] Cek Id Group
+😎[Ginfo]    Group Info
+😎[Mid RA]   Cek All mid Bot
+😎[RA 1/2/3/4] Cek Mid Bot
+😎[Respon]   Cek Respon Bot
+😎[Speedbot] Cek Kecepatan Bot
+😎[Up]       Fungsi Spam Chat
+😎[Tagall]   Mention Semua User
+😎[Banlist]  Cek List Akun Banned
+😎[Gn namagroup] Ganti Nama Group
+😎[Cancel] Cancel User Masuk Group
+😎[Set View] Cek Privasi Group
+😎[Open Url]  Membuka Url Group
+😎[Close Url] Menutup Url Group
 
 􀔃􀅕red arrow right􏿿 Command Private
-[Set group] Menggatur Privasi Grup
-[Banned @] Bann Target 
-[Unban @]  Unbann Target
-[Kill @] Kick Target Bann
-[Nk @]   Kick Target User
-[Invite mid] Invite Via Mid
-[Kick mid] Kick Via mid
-[Ayo masuk] Invite Semua Bot
-[_namabot join] Invite Bot
-[Bye _namabot]  Leave Bot
+👊[Set group] Menggatur Privasi Grup
+👊[Banned @] Bann Target 
+👊[Unban @]  Unbann Target
+👊[Kill @] Kick Target Bann
+👊[Nk @]   Kick Target User
+👊[Invite mid] Invite Via Mid
+👊[Kick mid] Kick Via mid
+👊[Ayo masuk] Invite Semua Bot
+👊[_namabot join] Invite Bot
+👊[Bye _namabot]  Leave Bot
 """
 
 Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
@@ -104,7 +103,7 @@ Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u33d60593ad472ed11e7907fb1daee6ae"]
-admin=["u33d60593ad472ed11e7907fb1daee6ae"]
+admin=["ub736c5b1794f5aa30026d162d07ce5e6"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -120,7 +119,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":" ",
+    "cName":"Tamii ",
     "cName2":"[R.A]_SX2 ",
     "cName3":"[R.A]_SX3 ",
     "cName4":"[R.A]_SX4 ",
@@ -792,7 +791,7 @@ def bot(op):
             if msg.contentType == 16:
                 url = msg.contentMetadata("line://home/post?userMid="+mid+"&postId="+"new_post")
                 cl.like(url[25:58], url[66:], likeType=1001)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.contentType == 13:
                if wait["wblack"] == True:
