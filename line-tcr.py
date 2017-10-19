@@ -119,16 +119,6 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"Tamii ",
-    "cName2":"[R.A]_SX2 ",
-    "cName3":"[R.A]_SX3 ",
-    "cName4":"[R.A]_SX4 ",
-    "cName5":"[R.A]_SX5 ",
-    "cName6":"[R.A]_SX6 ",
-    "cName7":"[R.A]_SX7 ",
-    "cName8":"[R.A]_SX8 ",
-    "cName9":"[R.A]_SX9 ",
-    "cName10":"[R.A]_SX10 ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -1878,7 +1868,7 @@ def bot(op):
 
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Sini dong","Kuy join","Ayo masuk"]:
+            elif msg.text in ["All join","Kuy join","Ayo masuk"]:
               if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -2300,14 +2290,14 @@ def bot(op):
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Respon","respon","Respon Dong","respon dong"]:
                 cl.sendText(msg.to,"...")
-                ki.sendText(msg.to,"......")
-                kk.sendText(msg.to,"..........")
-                kc.sendText(msg.to,"..............")
-                ks.sendText(msg.to,"...................")
-                ka.sendText(msg.to,"......................")
-                kb.sendText(msg.to,"...........................")
-                ko.sendText(msg.to,"...............................")
-                ke.sendText(msg.to,"Complete 100%")
+                ki.sendText(msg.to,"Doctor.A v10")
+                kk.sendText(msg.to,"Eliza v10")
+                kc.sendText(msg.to,"Parry v10")
+                ks.sendText(msg.to,"Rakko v10")
+                ka.sendText(msg.to,"しりちゃん追加保護ボット2012")
+                kb.sendText(msg.to,"しりちゃん追加保護ボット2013")
+                ko.sendText(msg.to,"しりちゃん追加保護ボット2014")
+                ke.sendText(msg.to,"しりちゃん追加保護ボット2015")
       #-------------Fungsi Respon Finish---------------------#
 
       #-------------Fungsi Balesan Respon Start---------------------#
