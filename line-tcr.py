@@ -199,7 +199,7 @@ def bot(op):
             if op.param3 in mid:
                 if op.param2 in Amid:
                     G = Amid.getGroup(op.param1)
-                    G.preventJoinByTicket = False
+                    G.preventJoinByTicket = True
                     Amid.updateGroup(G)
                     Ticket = Amid.reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ticket)
@@ -210,10 +210,10 @@ def bot(op):
             if op.param3 in Amid:
                 if op.param2 in mid:
                     X = cl.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     cl.updateGroup(X)
                     Ti = cl.reissueGroupTicket(op.param1)
-                    ki.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ki.updateGroup(X)
                     Ti = ki.reissueGroupTicket(op.param1)
@@ -221,10 +221,10 @@ def bot(op):
             if op.param3 in Bmid:
                 if op.param2 in Amid:
                     X = ki.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     ki.updateGroup(X)
                     Ti = ki.reissueGroupTicket(op.param1)
-                    kk.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kk.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     kk.updateGroup(X)
                     Ti = kk.reissueGroupTicket(op.param1)
@@ -232,10 +232,10 @@ def bot(op):
             if op.param3 in Cmid:
                 if op.param2 in Bmid:
                     X = kk.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     kk.updateGroup(X)
                     Ti = kk.reissueGroupTicket(op.param1)
-                    kc.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kc.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     kc.updateGroup(X)
                     Ti = kc.reissueGroupTicket(op.param1)
@@ -243,10 +243,10 @@ def bot(op):
             if op.param3 in Dmid:
                 if op.param2 in Cmid:
                     X = kc.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     kc.updateGroup(X)
                     Ti = kc.reissueGroupTicket(op.param1)
-                    ks.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ks.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ks.updateGroup(X)
                     Ti = ks.reissueGroupTicket(op.param1)
@@ -254,10 +254,10 @@ def bot(op):
             if op.param3 in Emid:
                 if op.param2 in Dmid:
                     X = ks.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     ks.updateGroup(X)
                     Ti = ks.reissueGroupTicket(op.param1)
-                    ka.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ka.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ka.updateGroup(X)
                     Ti = ka.reissueGroupTicket(op.param1)
@@ -265,10 +265,10 @@ def bot(op):
             if op.param3 in Fmid:
                 if op.param2 in Emid:
                     X = ka.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     ka.updateGroup(X)
                     Ti = ka.reissueGroupTicket(op.param1)
-                    kb.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kb.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     kb.updateGroup(X)
                     Ti = kb.reissueGroupTicket(op.param1)
@@ -276,10 +276,10 @@ def bot(op):
             if op.param3 in Gmid:
                 if op.param2 in Fmid:
                     X = kb.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     kb.updateGroup(X)
                     Ti = kb.reissueGroupTicket(op.param1)
-                    ko.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ko.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ko.updateGroup(X)
                     Ti = ko.reissueGroupTicket(op.param1)
@@ -287,10 +287,10 @@ def bot(op):
             if op.param3 in Hmid:
                 if op.param2 in Gmid:
                     X = ko.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     ko.updateGroup(X)
                     Ti = ko.reissueGroupTicket(op.param1)
-                    ke.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ke.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ke.updateGroup(X)
                     Ti = ke.reissueGroupTicket(op.param1)
@@ -298,10 +298,10 @@ def bot(op):
             if op.param3 in Imid:
                 if op.param2 in mid:
                     X = cl.getGroup(op.param1)
-                    X.preventJoinByTicket = False
+                    X.preventJoinByTicket = True
                     cl.updateGroup(X)
                     Ti = cl.reissueGroupTicket(op.param1)
-                    ku.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ku.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     cl.updateGroup(X)
                     Ti = cl.reissueGroupTicket(op.param1)        
@@ -1550,7 +1550,7 @@ def bot(op):
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"è¦�äº†å…³æ–­ã€‚")
-            elif msg.text in ["Set View"]:
+            elif msg.text in ["Set View","Set"]:
                 md = ""
                 if wait["Protectjoin"] == True: md+="􀔃􀆑lock􏿿  Block Join\n"
                 else: md+=" Block Join Off\n"
@@ -1558,20 +1558,20 @@ def bot(op):
                 else: md+=" Block Group Off\n"
                 if wait["Protectcancl"] == True: md+="􀔃􀆑lock􏿿 Cancel All Invited\n"
                 else: md+=" Cancel All Invited Off\n"
-                if wait["contact"] == True: md+=" Contact    : on\n"
-                else: md+=" Contact    : off\n"
-                if wait["autoJoin"] == True: md+=" Auto join : on\n"
-                else: md +=" Auto join : off\n"
-                if wait["autoCancel"]["on"] == True:md+=" Group cancel :" + str(wait["autoCancel"]["members"]) + "\n"
-                else: md+= " Group cancel : off\n"
-                if wait["leaveRoom"] == True: md+=" Auto leave    : on\n"
-                else: md+=" Auto leave : off\n"
-                if wait["timeline"] == True: md+=" Share   : on\n"
-                else:md+=" Share   : off\n"
-                if wait["autoAdd"] == True: md+=" Auto add : on\n"
-                else:md+=" Auto add : off\n"
-                if wait["commentOn"] == True: md+=" Comment : on\n"
-                else:md+=" Comment : off\n"
+                if wait["contact"] == True: md+=" 👉Contact👈    : on\n"
+                else: md+=" 👉Contact👈    : off\n"
+                if wait["autoJoin"] == True: md+=" 👉Auto join👈 : on\n"
+                else: md +=" 👉Auto join👈 : off\n"
+                if wait["autoCancel"]["on"] == True:md+=" 👉Group cancel👈 :" + str(wait["autoCancel"]["members"]) + "\n"
+                else: md+= " 👉Group cancel👈 : off\n"
+                if wait["leaveRoom"] == True: md+=" 👉Auto leave👈    : on\n"
+                else: md+=" 👉Auto leave👈 : off\n"
+                if wait["timeline"] == True: md+=" 👉Share👈   : on\n"
+                else:md+=" 👉Share👈   : off\n"
+                if wait["autoAdd"] == True: md+=" 👉Auto add👈 : on\n"
+                else:md+=" 👉Auto add👈 : off\n"
+                if wait["commentOn"] == True: md+=" 👉Comment👈 : on\n"
+                else:md+=" 👉Comment👈 : off\n"
                 cl.sendText(msg.to,md)
             elif "album merit " in msg.text:
                 gid = msg.text.replace("album merit ","")
@@ -2070,7 +2070,7 @@ def bot(op):
                             pass
          #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "Greet" in msg.text:
+            elif "Greet","Destroy","Cleanse" in msg.text:
               if msg.from_ in Bots:
                 if msg.toType == 2:
                     print "ok"
@@ -2099,9 +2099,9 @@ def bot(op):
                                 kicker.kickoutFromGroup(msg.to,[target])
                                 print (msg.to,[g.mid])
                             except:
-                                ki.sendText(msg.to,"Group cleanse")
-                                kk.sendText(msg.to,"Group cleanse")
-                                kc.sendText(msg.to,"Group cleanse")
+                                #ki.sendText(msg.to,"Group cleanse")#
+                                #kk.sendText(msg.to,"Group cleanse")#
+                                #kc.sendText(msg.to,"Group cleanse")#
 
         #----------------Fungsi Kick User Target Start----------------------#
             elif "Nk " in msg.text:
@@ -2247,7 +2247,7 @@ def bot(op):
         #-------------Fungsi Spam Finish---------------------#
 
         #-------------Fungsi Broadcast Start------------#
-            elif "Bc " in msg.text:
+            elif "Say " in msg.text:
 				bctxt = msg.text.replace("Bc ","")
 				ki.sendText(msg.to,(bctxt))
 				kk.sendText(msg.to,(bctxt))
@@ -2277,9 +2277,10 @@ def bot(op):
                 ki.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
                 kk.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
                 kc.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
-            elif msg.text in ["#welcome"]:
-                ki.sendText(msg.to,"Selamat datang di Chivas Family Room")
-                kk.sendText(msg.to,"Jangan nakal ok!")
+            elif msg.text in ["#welcome","Welcome"]:
+                ginfo = cl.getGroup(msg.to)
+                cl.sendText(msg.to,"Selamat Datang Di Grup " + str(ginfo.name))
+                cl.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping"]:
                 ki.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
@@ -2289,7 +2290,7 @@ def bot(op):
 
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Respon","respon","Respon Dong","respon dong"]:
-                cl.sendText(msg.to,"...")
+                cl.sendText(msg.to,"List Bot 👇👇👇")
                 ki.sendText(msg.to,"Doctor.A v10")
                 kk.sendText(msg.to,"Eliza v10")
                 kc.sendText(msg.to,"Parry v10")
@@ -2307,9 +2308,9 @@ def bot(op):
       #-------------Fungsi Balesan Respon Finish---------------------#
 
        #-------------Fungsi Speedbot Start---------------------#
-            elif msg.text in ["Speedbot","speedbot"]:
+            elif msg.text in ["Speedbot","speedbot","Speed","Sp"]:
                 start = time.time()
-                cl.sendText(msg.to, "Waiting...")
+                cl.sendText(msg.to, "Waitting...")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))
       #-------------Fungsi Speedbot Finish---------------------#
