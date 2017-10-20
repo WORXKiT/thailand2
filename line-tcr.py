@@ -2070,7 +2070,7 @@ def bot(op):
                             pass
          #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "Greet","Destroy","Cleanse" in msg.text:
+            elif "Greet" in msg.text:
               if msg.from_ in Bots:
                 if msg.toType == 2:
                     print "ok"
