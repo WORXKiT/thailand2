@@ -212,99 +212,99 @@ def bot(op):
                     X = cl.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     cl.updateGroup(X)
-                    Ti = cl.reissueGroupTicket(op.param1)
+                    Ticket = cl.reissueGroupTicket(op.param1)
                     ki.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ki.updateGroup(X)
-                    Ti = ki.reissueGroupTicket(op.param1)
+                    Ticket = ki.reissueGroupTicket(op.param1)
 
             if op.param3 in Bmid:
                 if op.param2 in Amid:
                     X = ki.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     ki.updateGroup(X)
-                    Ti = ki.reissueGroupTicket(op.param1)
+                    Ticket = ki.reissueGroupTicket(op.param1)
                     kk.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     kk.updateGroup(X)
-                    Ti = kk.reissueGroupTicket(op.param1)
+                    Ticket = kk.reissueGroupTicket(op.param1)
 
             if op.param3 in Cmid:
                 if op.param2 in Bmid:
                     X = kk.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     kk.updateGroup(X)
-                    Ti = kk.reissueGroupTicket(op.param1)
+                    Ticket = kk.reissueGroupTicket(op.param1)
                     kc.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     kc.updateGroup(X)
-                    Ti = kc.reissueGroupTicket(op.param1)
+                    Ticket = kc.reissueGroupTicket(op.param1)
                 
             if op.param3 in Dmid:
                 if op.param2 in Cmid:
                     X = kc.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     kc.updateGroup(X)
-                    Ti = kc.reissueGroupTicket(op.param1)
+                    Ticket = kc.reissueGroupTicket(op.param1)
                     ks.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ks.updateGroup(X)
-                    Ti = ks.reissueGroupTicket(op.param1)
+                    Ticket = ks.reissueGroupTicket(op.param1)
                 
             if op.param3 in Emid:
                 if op.param2 in Dmid:
                     X = ks.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     ks.updateGroup(X)
-                    Ti = ks.reissueGroupTicket(op.param1)
+                    Ticket = ks.reissueGroupTicket(op.param1)
                     ka.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ka.updateGroup(X)
-                    Ti = ka.reissueGroupTicket(op.param1)
+                    Ticket = ka.reissueGroupTicket(op.param1)
                 
             if op.param3 in Fmid:
                 if op.param2 in Emid:
                     X = ka.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     ka.updateGroup(X)
-                    Ti = ka.reissueGroupTicket(op.param1)
+                    Ticket = ka.reissueGroupTicket(op.param1)
                     kb.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     kb.updateGroup(X)
-                    Ti = kb.reissueGroupTicket(op.param1)
+                    Ticket = kb.reissueGroupTicket(op.param1)
                 
             if op.param3 in Gmid:
                 if op.param2 in Fmid:
                     X = kb.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     kb.updateGroup(X)
-                    Ti = kb.reissueGroupTicket(op.param1)
+                    Ticket = kb.reissueGroupTicket(op.param1)
                     ko.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ko.updateGroup(X)
-                    Ti = ko.reissueGroupTicket(op.param1)
+                    Ticket = ko.reissueGroupTicket(op.param1)
                 
             if op.param3 in Hmid:
                 if op.param2 in Gmid:
                     X = ko.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     ko.updateGroup(X)
-                    Ti = ko.reissueGroupTicket(op.param1)
+                    Ticket = ko.reissueGroupTicket(op.param1)
                     ke.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     ke.updateGroup(X)
-                    Ti = ke.reissueGroupTicket(op.param1)
+                    Ticket = ke.reissueGroupTicket(op.param1)
                     
             if op.param3 in Imid:
                 if op.param2 in mid:
                     X = cl.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     cl.updateGroup(X)
-                    Ti = cl.reissueGroupTicket(op.param1)
+                    Ticket = cl.reissueGroupTicket(op.param1)
                     ku.acceptGroupInvitationByTicket(op.param1,Ticket)
                     X.preventJoinByTicket = True
                     cl.updateGroup(X)
-                    Ti = cl.reissueGroupTicket(op.param1)        
+                    Ticket = ku.reissueGroupTicket(op.param1)        
 
         if op.type == 13:
             print op.param1
