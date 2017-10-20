@@ -2099,9 +2099,9 @@ def bot(op):
                                 kicker.kickoutFromGroup(msg.to,[target])
                                 print (msg.to,[g.mid])
                             except:
-                                #ki.sendText(msg.to,"Group cleanse")#
-                                #kk.sendText(msg.to,"Group cleanse")#
-                                #kc.sendText(msg.to,"Group cleanse")#
+                                ki.sendText(msg.to,"Group cleanse")
+                                kk.sendText(msg.to,"Group cleanse")
+                                kc.sendText(msg.to,"Group cleanse")
 
         #----------------Fungsi Kick User Target Start----------------------#
             elif "Nk " in msg.text:
