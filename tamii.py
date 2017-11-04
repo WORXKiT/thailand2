@@ -2906,6 +2906,32 @@ def bot(op):
                         
                     cl.sendText(msg.to,"Blacklist user")
 #========================================
+            elif msg.text in ["Kembali","backup"]:
+                    try:
+                       cl.updateDisplayPicture(backup.pictureStatus)
+                       cl.updateProfile(backup)
+                       cl.sendText(msg.to, "Telah kembali semula")
+                    except Exception as e:
+                       cl.sendText(msg.to, str(e))
+#------------------------------------------------
+            elif "Copy @" in msg.text:
+                if msg.toType == 2:
+                    print "[COPY] Ok"
+                    _name = msg.text.replace("Copy @","")
+                    _nametarget = _name.rstrip(' ')
+                    gs = cl.getGroup(msg.to)
+                targets = []
+                for g in gs.members:
+                    if _nametarget == g.displayName:
+                        targets.append(g.mid)
+                if targets == []:
+                    sendMessage(msg.to, "Not Found...")
+                else:
+                     for target in targets:
+                         try:
+                              cl.cloneContactProfile(target)
+                         except Exception as e:
+                             print e
 #=============================================
 #=============================================
             elif "Kepo" in msg.text:
