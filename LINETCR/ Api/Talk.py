@@ -23,7 +23,7 @@ class Talk:
   UA = "Line/7.14.0"
   LA = "IOSIPAD\t7.14.0\tiPhone OS\t10.12.0"
 	
-  authToken = ไม่มี
+  authToken = None
   cert = None
 
   def __init__(self):
