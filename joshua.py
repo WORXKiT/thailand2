@@ -5,125 +5,136 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
-cl = LINETCR.LINE() 
-cl.login(token="EmfDb1fJmfhSpd7MRDO3.k0v7hVG5hUrrYAiSG14EmW.joks2/Jl0iTElLIOyVXaBvO4/RLeWlN201DRz6uInG4=")
+cl = LINETCR.LINE()
+cl.login(token="EmqvtDIKh2TEOo5STFP8.OShfSYZlTEbJ9zkaxUQCsa.0+Cku9iVKYcp3sLgCQ27u9crOgzL/Xvcf5c4fxLq28o=")
 cl.loginResult()
 
-ki = LINETCR.LINE() 
-ki.login(token="EmOYUW04NjdwQ0Egp0yc.rhpLr3SAdszTXVT7mquhFa.S5do2/SexV13vqqlLxZu2YGa7nMQrXAHWAA741Qkr6w=")
+ki = LINETCR.LINE()
+ki.login(token="Emi2A96RpFRPDRi4aRs0.2VYAP+nx7WJzmk3Q6Cp18a.W5QCHYOTPSz/CNpPV6oXvfSi0XHN3OpZHcP+tp/BVP8=")
 ki.loginResult()
 
-ki2 = LINETCR.LINE() 
-ki2.login(token="EmqhkSjjanO3TZybM5ic.ak/Sv6i97NA4kP02HPjppa.1FCJ0IfHD+s2Z09n0zCcCzimmonhEdGVib7uvByAsEg=")
+ki2 = LINETCR.LINE()
+ki2.login(token="EmUoXVe1Ida5vpK5voS7.4y3AtLHOW/6cy1uIdmf9nW.P3YU1NlkOdxkmvJkeeAagX/5iDsNpVzdN9T6DiWZ22I=")
 ki2.loginResult()
 
-ki3 = LINETCR.LINE() 
-ki3.login(token="Em08TaEXHe0F19o0wCyb.Ya5qlGguSAMcSJXarn/32W.gxg7+9NTcAX38/06Up7TdjDhGNoQLLU+JB9JDeiQx/A=")
+ki3 = LINETCR.LINE()
+ki3.login(token="Emtxw5cI2rHC5fgyOz7e./qtP/YKUB+ZwOkjfTc5yJG.oei6D3kfAtogGLqmj3nMRVYgqatQq1H4qDXJmCw8fuI=")
 ki3.loginResult()
 
-ki4 = LINETCR.LINE() 
-ki4.login(token="EmUdQL0Zlff06r9Ni2rd.5KRnz72PA/njFcuaZfZ8Vq.Wv+WgeHrua7c3eGKu+iL8dUqq32e6vBUaNMB/qK2uKQ=")
+ki4 = LINETCR.LINE()
+ki4.login(token="Em408GS88pjKjNo1FaF7.3Z1xf0sFyC4jPP4NsKANzW./lszjjL1fxiXu7p4d3188+hW6xwS2z1eKUwaN4WhXFc=")
 ki4.loginResult()
 
-ki5 = LINETCR.LINE() 
-ki5.login(token="EmISor3xLZKGj4hVRTZd.8EAJfZKSWnu+UKVyoveEFq.jnHC7WzGMsE81zIK4yXycEiQ1tDCcCekVh1+7Q8jOFE=")
+ki5 = LINETCR.LINE()
+ki5.login(token="EmW15pxRUPQTyEdvns37.yZTkhqNTJYq3KuHCk0owfW./G4RgicIFvF4iybUzxdQ7jgBg27MA2i5Y2oeS+UXALA=")
 ki5.loginResult()
 
-ki6 = LINETCR.LINE() 
-ki6.login(token="EmMMuNRe83yPuj6q6p8b.APMuxn4klNQaVTkmpnh3IW.RDN2hliFiDG1mf8sApBCB5ferK+9ga3FE1i+Wxk8Kdw=")
+ki6 = LINETCR.LINE()
+ki6.login(token="EmXcw7qfsv4VillW63Y3.MVT8Siku28HcTopdNjxGuW.oX4eAkwMrafwv3z8HKVFeQw5kNjtmiXc+xUdst9qaQM=")
 ki6.loginResult()
 
+ki7 = LINETCR.LINE()
+ki7.login(token="EmlcpVFQ6ATxCUe4vuT9.FntfQBzvYXdoowX2mB7uQq./b3q0K1RTej/zdrXP4gqtjmrQ5GkdZwH9CETHNgRk1s=")
+ki7.loginResult()
 
-#ki4 = KITSUNEBOT.LINE()
-#ki4.login(token="Ekp9DIn7ZOF68PRT6NE2.ptORzz3sLbeG01QeTJsgeG.+43NBwiGAyx/HLhTUjf5hfcefo/pRN+IPs89ptqCQxQ=")
-#ki4.loginResult()
+ki8 = LINETCR.LINE()
+ki8.login(token="EmLO2o3oYWj8NWLBKHce.Llx/4jQcWZnEFkn34P90pG.5zcpjDfmufYyfzTOiVbAyniIYM7XFO1bW20w3Z3BNmg=")
+ki8.loginResult()
 
-#ki5 = KITSUNEBOT.LINE()
-#ki5.login(token="EkZI8XiCp5ZTkYU29tC5.zNVivIokyd1dCo0dpANHvq.0LNZCi0tmVpGnI+hRRRA5P0wfU4xDv+PpBNcGYD0sY4=")
-#ki5.loginResult()
+ki9 = LINETCR.LINE()
+ki9.login(token="EmOijtxPBqAcMpezUMG1.3hP7cEAfq2dmrbxzerkmaq.p8KK1Cj8JNoz4ugA8j6W1RYWJNwzHqIRJkyE90bJRqY=")
+ki9.loginResult()
 
-#ki6 = KITSUNEBOT.LINE()
-#ki6.login(token="EkJ5l49Apx6J60DHyfU4.tWI+bgToteDmanSLf3rEza.HEEAt8Hc5NEThS7g7tKGBL89uHYdJGZSOIc6N5deibQ=")
-#ki6.loginResult()
+ki10 = LINETCR.LINE()
+ki10.login(token="EmtckwLovuyP8seqTK41.DZ3ZfhFB1jatysHX5ILMeq.a2NOmuf1sobr0+zD/8CQhAUxRmWLl8d6vIG3A32HWIw=")
+ki10.loginResult()
+
+ki11 = LINETCR.LINE()
+ki11.login(token="EmGCrr7sDiVaMzxeTwte.oyEdfwMbcocNVFhHLxsZ3G.6wxQdBGkiElDMWStV2u/djE5yhNhl8RRixvWiPZ/Gus=")
+ki11.loginResult()
+
+
+#ki9 = KITSUNEBOT.LINE()
+#ki4.login(token="EmOijtxPBqAcMpezUMG1.3hP7cEAfq2dmrbxzerkmaq.p8KK1Cj8JNoz4ugA8j6W1RYWJNwzHqIRJkyE90bJRqY=")
+#ki9.loginResult()
+
+#ki10 = KITSUNEBOT.LINE()
+#ki5.login(token="EmtckwLovuyP8seqTK41.DZ3ZfhFB1jatysHX5ILMeq.a2NOmuf1sobr0+zD/8CQhAUxRmWLl8d6vIG3A32HWIw=")
+#ki10.loginResult()
+
+#ki11 = KITSUNEBOT.LINE()
+#ki6.login(token="EmGCrr7sDiVaMzxeTwte.oyEdfwMbcocNVFhHLxsZ3G.6wxQdBGkiElDMWStV2u/djE5yhNhl8RRixvWiPZ/Gus=")
+#ki11.loginResult()
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
+helpMessage ="""
 
-helpMessage ="""       Self Bots Command:『JOSHUA™』
-  [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅]
-🔯[Id]􀜁􀇔􏿿
-🔯[Mid]
-🔯[Me] 
-🔯[TL 「Text」
-🔯[MyName]
-🔯[I Gift]
-🔯[Mid 「mid」
-🔯[Group id]
-🔯[Group cancel]
-🔯[album 「id」]
-🔯[Hapus album 「id」
-🔯[Contact on] 
-🔯[Contact off] 
-🔯[Auto join on] 
-🔯[Auto join off] 
-🔯[Group cancel]
-🔯[Auto leave on] 
-🔯[Auto leave off]
-🔯[Auto add on/off] 
-🔯[Jam on]]
-🔯[Jam off]
-🔯[Jam say]
-🔯[Up]
-🔯[Ban:on] 
-🔯[Unban:on]
-🔯[Banlist]
-🔯[Com on]
-🔯[Com set]
-🔯[Mcheck] 
-🔯[Message Confirmation] 
-🔯[Mybio: 「Isi Bio」]  
-🔯[Allbio: 「Isi Bio bot」] 
-  
-  [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
+ЂÕŦ•Ŧђάїŀάηď•Όηŀїηξ
 
-🎲 [Link on]
-🎲 [Link off] 
-🎲 [Invite「mid」]
-🎲􀜁[Kmid: Kick by mid] 
-🎲 [Ginfo] 
-🎲 [Cancel] 
-🎲 [Backup]
-🎲 [Gn 「Nama grup」 
-🎲 [Gurl]
-🎲􀜁 [gurl「kelompok ID]
-🎲 [Nk「nama」] 
-🎲 [Bye ]
-🎲 [Ban:] 
-🎲 [Unban:]
-🎲 [Protect on] 
-🎲 [Qr on/off] 
-🎲 [Invite on] 
-🎲 [Cancel on] 
-🎲 [Copy @] 
-🎲 [Kembali]
-🎲 [Ccopy @]
+     🇱🇷คำสั่ง,ในกลุ่ม🇱🇷
 
-􀜁􀇔􏿿 COMMAND Protect 􀜁􀇔􏿿
+📌 Me ☞ฉัน☜
+📌 Myname ☞ดูไอดีกลุ่มทั้งหมดของฉัน☜
+📌 I Gift ☞ส่งของขวัญ☜
+📌 แอบ ☞ตั้งเวลาคนอ่าน☜
+📌 ส่อง ☞ดูคนอ่านข้อความ☜
+📌 Link on ☞อนุญาตให้เชิญเข้ากลุ่ม☜
+📌 Link off ☞บล็อกคำเชิญเข้ากลุ่ม☜
+📌 กลุ่ม ☞ดูสถานะกลุ่ม☜
+📌 .ss ☞ยกเลิกคำเชิญทั้งหมดในกลุ่ม☜
+📌 .TT ☞แท็กชื่อเพื่อนในกลุ่มทั้งหมด☜
+📌 Backup ☞การสำรองข้อมูล☜
+📌 .mm ☞สั่งยกเลิกคำเชิญเข้ากลุ่มทั้งหมด☜
+📌 Gn ☞เปลี่ยนชื่อกลุ่ม☜        
 
-🌀 Bot all
-🌀 Bot Key
-🌀􀜁Bot1-6 in
-🌀 Bot1-6 bye
-🌀 Respons
-🌀 Bye all        
-  
+     🇱🇷ตั้งค่า,คิกเก้อ🇱🇷
+
+🔒เข้า ☞เรียกคิกเก้อเข้า☜
+🔒บอท ออก ☞คิกเก้อ,ออก☜
+🔒Bot1 in _ Bot6 in ☞คิกเก้อ,เข้าทีล่ะตัว☜
+🔒Bot1 bye _ Bot6 bye ☞คิกเก้อ,ออกทีล่ะตัว☜
+
+     🇱🇷ตั้งค่า,แบน,เพิ่มแบน🇱🇷
+
+🕵Ban:☞เพิ่มแบน☜
+🕵Unban:☞แก้แบน☜
+🕵Banlist☞เช็ครายชื่อคนติดแบน☜
+🕵Mcheck☞ดูติดดำ☜
+
+     🇱🇷ตั้งค่า,เตะคน,ในห้อง🇱🇷
+
+✏Nk @☞แท็กชื่อเตะคน☜
+✏Nuke☞เตะทั้งหมดในกลุ่ม☜
+✏Bunuh@☞แอดเตะหลายคน☜
+✏Telan@☞คิกเก้อเตะหลายคน☜
+ 
+      🇱🇷ตั้งค่า,ออโต้,set🇱🇷
+
+🐢 contact off/on ☞โชว์ข้อมูล☜
+🐢 Auto Join off/on ☞เข้าห้อง.ออโต้☜
+🐢 Auto leave off/on ☞ออกห้อง.ออโต้☜
+🐢 Share off/on ☞แชร์.ออโต้☜
+🐢 Auto add off/on ☞แอด.ออโต้☜
+🐢 Protect off/on ☞ป้องกันห้อง☜
+
+🇱🇷ติดต่อ🇱🇷
+
+їď...line.me/ti/p/GJIGtNjzsv
+
+ЂÕŦ•Ŧђάїŀάηď•Όηŀїηξ
+
           ☆ F̧͈̤̱͎̱̤̞̭̐͒́̀͗͞Ḷ̵̻̝̘͍̏̃͊̉͠Ŏ̩͖͎̹̫͈̏́̑́W ̤̲̯̤̹̲̲̘̈́̿͒ͅĮ̶̼̲̺̣̬̔̿͐̾̾Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞S͎̱̺̜̀̿͘̕̕͢P̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠EC̸̡̩̣̲̣̜̊̾͊̃͜ͅT B̵̧͔̟̫̰̮̺̟̥̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ T̶͖̜̻̰͍̮̼́̐̑͒́̕ͅ ☆
-          http://line.me/ti/p/~joshuasiregaar
+
+
+
+
 """
 helo=""
 
-KAC=[cl,ki,ki2,ki3,ki4,ki5,ki6]
+KAC=[cl,ki,ki2,ki3,ki4,ki5,ki6,ki7]
+
 mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -132,8 +143,10 @@ ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki6mid = ki6.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid]
-admsa = "u2b457b1ef8391ee451c9a22c835e1e33"
+ki7mid = ki7.getProfile().mid
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid]
+admsa = "ua2c1c5b32ccbb5e063f592805eea9c48
+
 
 wait = {
     'contact':False,
